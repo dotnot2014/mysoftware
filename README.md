@@ -7,7 +7,7 @@
 
 **最新版**：见 [Releases 页面](https://github.com/dotnot2014/mysoftware/releases/latest)
 
-- **Apple Silicon（M 系列）**：[v1.1.41 arm64 DMG](https://github.com/dotnot2014/mysoftware/releases/download/v1.1.41/huaye-mac-manager-1.1.41-arm64.dmg)
+- **Apple Silicon（M 系列）**：[v1.1.45 arm64 DMG](https://github.com/dotnot2014/mysoftware/releases/download/v1.1.45/huaye-mac-manager-1.1.45-arm64.dmg)
 
 ## 安装
 
@@ -21,7 +21,7 @@
 
 
 ```shell
-shasum -a 256 ~/Downloads/huaye-mac-manager-1.1.41-arm64.dmg
+shasum -a 256 ~/Downloads/huaye-mac-manager-1.1.45-arm64.dmg
 ```
 
 各版本校验值写在对应 Release 的说明里。
