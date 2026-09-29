@@ -11,7 +11,7 @@
 - GitHub：[huaye-mac-manager-2.3.0-universal.dmg](https://github.com/dotnot2014/mysoftware/releases/download/v2.3.0/huaye-mac-manager-2.3.0-universal.dmg)
 - 国内直链：[cleanmac.yisihudong.com/download/huaye-mac-manager-2.3.0-universal.dmg](https://cleanmac.yisihudong.com/download/huaye-mac-manager-2.3.0-universal.dmg)
 
-历史版本与更新说明见 [Releases 页面](https://github.com/dotnot2014/mysoftware/releases)。已安装 v2.3.0 及以上的，可以在应用的「设置 › 更新」里直接下载并安装新版本。
+更新说明见 [Release 页面](https://github.com/dotnot2014/mysoftware/releases/latest)。本仓库只保留最新版本的安装包。已安装 v2.3.0 及以上的，可以在应用的「设置 › 更新」里直接下载并安装新版本。
 
 ## 安装
 
