@@ -1,51 +1,46 @@
+「花爷 Mac 管家」是 macOS 上的本地系统维护工具：**系统清理**、**文件清理**、**应用卸载**、**菜单栏硬件状态面板**。所有数据只留在本机，无账号、无云端同步、无后台上报。支持 13 种界面语言。
 
-「花爷 Mac 管家」是 macOS 上的本地系统维护工具：**系统清理**、**应用卸载**、**菜单栏硬件状态面板**。 所有数据只留在本机，无账号、无云端同步、无后台上报。
+官网：<https://cleanmac.yisihudong.com/> · English: <https://cleanmac.yisihudong.com/en/>
 
 > 本仓库**只用于分发安装包**（源码不在此仓库），安装包见下方 Release。
 
 ## 下载
 
-**最新版**：见 [Releases 页面](https://github.com/dotnot2014/mysoftware/releases/latest)
+**最新版 v2.3.0**（Apple Silicon / Intel 通用）：
 
-- **Apple Silicon（M 系列）**：[v1.1.45 arm64 DMG](https://github.com/dotnot2014/mysoftware/releases/download/v1.1.45/huaye-mac-manager-1.1.45-arm64.dmg)
+- GitHub：[huaye-mac-manager-2.3.0-universal.dmg](https://github.com/dotnot2014/mysoftware/releases/download/v2.3.0/huaye-mac-manager-2.3.0-universal.dmg)
+- 国内直链：[cleanmac.yisihudong.com/download/huaye-mac-manager-2.3.0-universal.dmg](https://cleanmac.yisihudong.com/download/huaye-mac-manager-2.3.0-universal.dmg)
+
+历史版本与更新说明见 [Releases 页面](https://github.com/dotnot2014/mysoftware/releases)。已安装 v2.3.0 及以上的，可以在应用的「设置 › 更新」里直接下载并安装新版本。
 
 ## 安装
 
-1. 下载 `.dmg` 并打开
-2. 把「花爷 Mac 管家」拖进「应用程序」
-3. **先退出已安装的旧版本**（单实例锁按用户目录生效，旧版不退出，新版起不来）
-4. 首次打开若被系统拦截：**右键 → 打开**（本应用为 ad-hoc 签名，未走 Apple 开发者签名，会被 Gatekeeper 拦一次）
-
+1. 下载 `.dmg` 并打开，把应用拖进「应用程序」
+2. 升级时**先在菜单栏图标里退出旧版**，再覆盖安装；设置、清理日志、注册码与试用期全部保留
+3. 安装包使用 Apple Developer ID 签名并通过苹果公证，双击即可打开
 
 ## 校验下载完整性
 
-
 ```shell
-shasum -a 256 ~/Downloads/huaye-mac-manager-1.1.45-arm64.dmg
+shasum -a 256 ~/Downloads/huaye-mac-manager-2.3.0-universal.dmg
 ```
 
-各版本校验值写在对应 Release 的说明里。
+应等于 `7f43403972919aafd1eeccaded65ca7137b3c58f435bc42e7b14cd2dc62787a4`。各版本的校验值写在对应 Release 的说明里。
 
 ## 系统要求
 
+- macOS 13 及以上
+- Apple Silicon 或 Intel
 
-- macOS 11 及以上
-- Apple Silicon（arm64）
+## 试用与购买
 
-## 关于注册码
+- 首次运行自动开始 **14 天全功能试用**
+- 试用结束后，菜单栏面板、健康体检、扫描永久免费；执行清理与卸载需要购买
+- 在应用里点「购买」，或到 [官网购买页](https://cleanmac.yisihudong.com/buy/)：个人版 1 台 Mac、家庭版 3 台，买断含 v2.x 全部更新；付款后点「在应用中激活」一键激活，注册码离线校验
+- 注册码售出后一般不退款，请先用满试用期再购买，详见 [退款政策](https://cleanmac.yisihudong.com/refund/)
 
+## 隐私
 
-首次运行自动获得 **30 天完整试用**。试用到期后仍可查看菜单栏硬件状态、打开主窗口与设置， 系统清理 / 应用卸载 / 网络测速等核心功能会暂停，直到输入有效注册码。
+应用只在三种情况下联网：你主动测速；每天最多一次检查更新（只下载官网上的版本信息文件，可关闭）；你主动点「下载并安装」时下载新版本。详见 [隐私政策](https://cleanmac.yisihudong.com/privacy/)。
 
-申请注册码：发送邮件至 **[5168247@qq.com](mailto:5168247@qq.com)**，并在邮件中附上应用「关于 › 注册信息」里显示的**设备码**。
-
-- 完全离线激活：不联网、不上传设备信息
-- 设备码由硬件标识单向哈希得到，无法反推原始硬件信息
-- 注册码使用 Ed25519 非对称签名校验，应用内只包含公钥
-
-## 权限说明
-
-
-- **完全磁盘访问权限**（可选）：用于清理应用容器类残留。在「系统设置 › 隐私与安全性 › 完全磁盘访问权限」中授权后**需重启应用**才生效。 注意该权限只解决容器类残留；`/var/log`、`/Library/Logs` 等属 root 的路径受 Unix 权限限制，即使授权也不会被删除。
-
-所有删除动作都经过路径安全校验与审计日志，系统关键路径会被拒绝。
+联系：[5168247@qq.com](mailto:5168247@qq.com)
