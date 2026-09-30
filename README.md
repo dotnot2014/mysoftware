@@ -6,10 +6,10 @@
 
 ## 下载
 
-**最新版 v2.3.0**（Apple Silicon / Intel 通用）：
+**最新版 v2.3.1**（Apple Silicon / Intel 通用）：
 
-- GitHub：[huaye-mac-manager-2.3.0-universal.dmg](https://github.com/dotnot2014/mysoftware/releases/download/v2.3.0/huaye-mac-manager-2.3.0-universal.dmg)
-- 国内直链：[cleanmac.yisihudong.com/download/huaye-mac-manager-2.3.0-universal.dmg](https://cleanmac.yisihudong.com/download/huaye-mac-manager-2.3.0-universal.dmg)
+- GitHub：[huaye-mac-manager-2.3.1-universal.dmg](https://github.com/dotnot2014/mysoftware/releases/download/v2.3.1/huaye-mac-manager-2.3.1-universal.dmg)
+- 国内直链：[cleanmac.yisihudong.com/download/huaye-mac-manager-2.3.1-universal.dmg](https://cleanmac.yisihudong.com/download/huaye-mac-manager-2.3.1-universal.dmg)
 
 更新说明见 [Release 页面](https://github.com/dotnot2014/mysoftware/releases/latest)。本仓库只保留最新版本的安装包。已安装 v2.3.0 及以上的，可以在应用的「设置 › 更新」里直接下载并安装新版本。
 
@@ -22,10 +22,10 @@
 ## 校验下载完整性
 
 ```shell
-shasum -a 256 ~/Downloads/huaye-mac-manager-2.3.0-universal.dmg
+shasum -a 256 ~/Downloads/huaye-mac-manager-2.3.1-universal.dmg
 ```
 
-应等于 `7f43403972919aafd1eeccaded65ca7137b3c58f435bc42e7b14cd2dc62787a4`。各版本的校验值写在对应 Release 的说明里。
+应等于 `f0d1a8ec9d5f57e081cb8463b6fc2a728be129c34036e7ab5f85f2ade9328d7e`。各版本的校验值写在对应 Release 的说明里。
 
 ## 系统要求
 
