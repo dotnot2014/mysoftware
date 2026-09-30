@@ -1,3 +1,21 @@
+# Huaye Mac Manager · 花爷 Mac 管家
+
+**A lightweight, native Mac cleaner, app uninstaller and duplicate file finder.** 4 MB, Apple Silicon + Intel, macOS 13+, 13 languages.
+
+- **System cleanup** — app caches, developer and AI-app caches, browser data, logs, Trash. About 500 cleanup rules, each with a written reason; keychains, Mail, Messages, Photos, cloud-drive folders, password managers and Xcode simulators are never touched.
+- **File cleanup** — large and duplicate files (matched by content), never pre-selected, always moved to the Trash.
+- **App uninstaller** — removes apps with their leftovers (strict bundle-ID matching) and their Dock icons.
+- **Menu bar panel** — CPU, memory pressure, disk and network at a glance.
+- **Private** — no account, no telemetry. Signed and notarized by Apple.
+
+**Download:** [latest release](https://github.com/dotnot2014/mysoftware/releases/latest) · **Website:** [cleanmac.yisihudong.com](https://cleanmac.yisihudong.com/en/) · **Pricing:** free 14-day trial, scanning stays free, one-time license from US$6.99
+
+**Compare & learn:** [CleanMyMac alternative](https://cleanmac.yisihudong.com/en/cleanmymac-alternative/) · [How to completely uninstall apps on Mac](https://cleanmac.yisihudong.com/en/guides/uninstall-apps-on-mac/) · [How to clear System Data](https://cleanmac.yisihudong.com/en/guides/clear-system-data-on-mac/) · [Find duplicate files](https://cleanmac.yisihudong.com/en/guides/find-duplicate-files-on-mac/) · [Is it safe to delete caches?](https://cleanmac.yisihudong.com/en/guides/is-it-safe-to-delete-mac-caches/)
+
+---
+
+## 中文说明
+
 「花爷 Mac 管家」是 macOS 上的本地系统维护工具：**系统清理**、**文件清理**、**应用卸载**、**菜单栏硬件状态面板**。所有数据只留在本机，无账号、无云端同步、无后台上报。支持 13 种界面语言。
 
 官网：<https://cleanmac.yisihudong.com/> · English: <https://cleanmac.yisihudong.com/en/>
